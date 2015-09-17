@@ -33,6 +33,19 @@ namespace Rextester
             x4 = x1 + ilgis;
             y4 = y1 - plotis;
            
+           //spausdinimas
+           
+            Console.WriteLine("Duotojo staciakampio plotis: " + plotis);
+            Console.WriteLine("Duotojo staciakampio ilgis: " + ilgis);
+            Console.WriteLine("Duotojo staciakampio pirmoji koordinate x = " + x1 + " ,y koordinate = " + y1 );
+            Console.WriteLine("Apskaiciavome : ");
+            Console.WriteLine("Staciakampio plotas: " + plotas);
+            Console.WriteLine("Staciakampio perimetras: " + perimetras);
+            Console.WriteLine("Staciakampio istrizaines ilgis: " + istrizaine);
+            Console.WriteLine("Duotojo staciakampio antroji koordinate x = " + x2 + " ,y koordinate = " + y2 );
+            Console.WriteLine("Duotojo staciakampio trecioji koordinate x = " + x3 + " ,y koordinate = " + y3 );
+            Console.WriteLine("Duotojo staciakampio ketvirtoji koordinate x = " + x4 + " ,y koordinate = " + y4 );
+            
             
             
 
