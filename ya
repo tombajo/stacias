@@ -1,0 +1,42 @@
+//Title of this code
+//Rextester.Program.Main is the entry point for your code. Don't change it.
+//Compiler version 4.0.30319.17929 for Microsoft (R) .NET Framework 4.5
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text.RegularExpressions;
+
+namespace Rextester
+{
+    public class Program
+    {
+        public static void Main(string[] args)
+        {
+            int ilgis = 5;
+            int plotis = 3;
+            int x1 = 1;
+            int y1 = 4;
+            int x2, x3, x4;
+            int y2,y3,y4;
+            int plotas, perimetras;
+            double istrizaine;
+            
+            plotas = ilgis * plotis;
+            perimetras = (2* ilgis) + (2*plotis);
+            istrizaine = Math.Sqrt(x1*x1 + y1*y1);
+            
+            x2 = x1 + ilgis;
+            y2 = y1;
+            x3 = x1;
+            y3 = y1 - plotis;
+            x4 = x1 + ilgis;
+            y4 = y1 - plotis;
+           
+            
+            
+
+            
+        }
+    }
+}
